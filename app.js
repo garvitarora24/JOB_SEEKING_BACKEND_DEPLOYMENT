@@ -1,7 +1,7 @@
 import express from "express"
 import dotenv from "dotenv";
 import cors from "cors";
-import cookieParser from "cookie-parser";
+import cookieParser from 'cookie-parser';
 import fileUpload from "express-fileupload"
 import userRouter from './routes/userRouter.js'
 import applicationRouter from './routes/applicationRouter.js'
@@ -24,10 +24,6 @@ const corsOptions = {
   };
 app.use(cors(corsOptions));
 app.options('*', cors(corsOptions)); // Enable preflight across-the-board 
-
-
-
-
 
 
 app.use(cookieParser())

@@ -10,3 +10,10 @@ export const dbConnection=()=>{
     })
 }
 
+
+// garvit2205be21
+// VzuOzC7ZqME1dRKz
+
+
+// MONGO_URI=mongodb+srv://garvit2205be21:<password>@cluster0.opbkf.mongodb.net/?retryWrites=true
+// mongodb://127.0.0.1:27017

@@ -25,7 +25,7 @@ export const errorMiddleware=(err,req,res,next)=>{
         const message=`json web token is expired .try again`
         err=new ErrorHandler(message,400)
     }
-
+    console.log("heloo error dekho " + err)
     return res.status(err.statusCode).json({
         success:false,
         message:err.message

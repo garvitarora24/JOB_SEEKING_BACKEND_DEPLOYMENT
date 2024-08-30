@@ -1,6 +1,5 @@
 import app from "./app.js";
 import cloudinary from "cloudinary";
-import cors from "cors";
 
 
 
